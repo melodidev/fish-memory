@@ -1,0 +1,10 @@
+body {
+  background-image: url("./assets/bg.png");
+  color: whitesmoke;
+  font-family: 'VT323', monospace;
+  font-size: 1.375rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
