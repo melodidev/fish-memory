@@ -1,9 +1,11 @@
+import trophy from "../assets/trophy.png";
+
 export default function GameOver(props) {
   return (
     <div>
       {props.currentScore == props.maxScore ? (
         <div className="d-flex flex-column align-items-center mt-5">
-          <img src="../public/images/trophy.png"/>
+          <img src={trophy} />
           <div className="text-warning display-4">Congratulations!</div>
           <div className="fs-2">You won the game.</div>
         </div>
